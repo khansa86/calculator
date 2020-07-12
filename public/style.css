@@ -1,0 +1,55 @@
+body{
+    background-color: thistle;
+}
+.text{
+    color: teal;
+    margin: 0 2px 4px 0;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.maindiv{
+    padding: 5px 5px 5px 5px;
+    background-color: silver;
+    margin: 0 auto;
+    border:2px solid slategray;
+    width: fit-content;
+    height: fit-content;
+}
+.button{
+    padding: 2px 2px 2px 2px;
+    /* border:1px solid white ; */
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+.button1{
+    padding: 10px 10px 10px 10px;
+    /* margin: 1px 1px 1px 1px; */
+    border:2px solid white;
+    
+
+
+}
+.button1:hover{
+    background-color: black;
+    color: white;
+}
+.ipdiv{
+    padding: 3px 3px 3px 3px;
+    border-radius: 8px;
+    border: 1px solid white;
+    margin: 2px 2px 10px 2px;
+}
+.field1{
+    padding: 3px 3px 3px 3px;
+    border-radius: 8px;
+    border: 1px solid white;
+    margin: 2px 2px 2px 2px;
+    
+
+}
+.field1:focus{
+    background-color: black;
+    color: white;
+}
